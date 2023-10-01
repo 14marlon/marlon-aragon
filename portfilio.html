@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="portfilio-color">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper navigation">
+                <a href="#!" class="brand-logo logo">LHON</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- sidenav stracture -->
+    <ul class="sidenav navigation" id="mobile-demo">
+        <li>
+            <div class="user-view navigation">
+                <a href="https://github.com/"><img class="circle" src="images/my-image-1.png" alt=""></a>
+                <a href="#"><span class="black-text name">Marlon Aragon</span></a>
+                <a href="#"><span class="black-text email">aragonmarlon1@gmail.com</span></a>
+            </div>
+        </li>
+        <li>
+            <div class="social-links">
+                <a href="https://facebook.com/allesso.allesso.75">
+                    <i class="fa-brands fa-facebook light-blue-text text-darken-4"></i>
+                </a>
+                <a href="https://www.instagram.com/aragonlhon/">
+                    <i class="fa-brands fa-instagram deep-orange-text"></i>
+                </a>
+                <a href="https://twitter.com/aragonmarlon1">
+                    <i class="fa-brands fa-square-x-twitter grey-text text-darken-4"></i>
+                </a>
+                <a href="https://github.com/14marlon">
+                    <i class="fa-brands fa-github grey-text text-darken-2"></i>
+                </a>
+            </div>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact me</a></li>
+    </ul>
+
+
+    <!-- About -->
+    <div class="container portfilio-color" id="about">
+        <div class="row">
+            <div class="col s12 m4">
+                <img src="images/my-image-2.png" class="responsive-img" alt="">
+            </div>
+            <div class="col s12 m8 indigo-text text-darken-4">
+                <h3 class="title">About me</h3>
+                <p>
+                    Hello! My name is Marlon Aragon, and I am a jr. web developer.
+                    I recently Graduated in Kodego Bootcamp. I have Developed
+                    some Website During my study in Kodego, I maybe New to
+                    this kind of job but I will assure you that I will apply all of the
+                    knowledge that I have aquired from the Bootcamp. And all The things
+                    that I need to learn to be able to be a good asset to your business,
+                    I will hunt for It outside the organization.
+                </p>
+                <p>
+                    I have also take a creative web design course at Telecall Institute of technology
+                    where I am one of the scholar of tesda. and had build my skills in web design.
+                </p>
+                <!-- tabs -->
+                <ul class="tabs navigation">
+                    <li class="tab col s3">
+                        <a href="#skills" class="indigo-text text-accent-4 tab-text">Skills</a>
+                    </li>
+                    <li class="tab col s3"><a href="#experience"
+                            class="indigo-text text-accent-4 tab-text">Experience</a>
+                    </li>
+                    <li class="tab col s3"><a href="#education" class="indigo-text text-accent-4 tab-text">Education</a>
+                    </li>
+                </ul>
+                <div id="skills" class="col s12">
+                    <h5 class="home-text indigo-text text-accent-4">Front end Developer</h5>
+                    <p class="flow-text indigo-text text-darken-4">Designing Developing Web/App Interfaces</p>
+                    <h5 class="home-text indigo-text text-accent-4">Back end Developer</h5>
+                    <p class="flow-text indigo-text text-darken-4">Creating server and Databases</p>
+                </div>
+                <div id="experience" class="col s12">
+                    <h5 class="home-text indigo-text text-accent-4">Pair-Project</h5>
+                    <p class="flow-text indigo-text text-darken-4">Developing E-commerce website with a team</p>
+                    <h5 class="home-text indigo-text text-accent-4">Capstone</h5>
+                    <p class="flow-text indigo-text text-darken-4">Developing Trello Clone With the team</p>
+                    <h5 class="home-text indigo-text text-accent-4">Game</h5>
+                    <p class="flow-text indigo-text text-darken-4">Developing memory game</p>
+                    <h5 class="home-text indigo-text text-accent-4">fetching API's</h5>
+                    <p class="flow-text indigo-text text-darken-4">Developing ChatGPT AI Using Api</p>
+                </div>
+                <div id="education" class="col s12">
+                    <h5 class="home-text indigo-text text-accent-4">High School</h5>
+                    <p class="flow-text indigo-text text-darken-4">Leuteboro National HighSchool Socorro Oriental
+                        Mindoro</p>
+                    <h5 class="home-text indigo-text text-accent-4">BootCamp</h5>
+                    <p class="flow-text indigo-text text-darken-4">Kodego Full stack Development Bootcamp</p>
+                    <h5 class="home-text indigo-text text-accent-4">Telecall Institute of Technology</h5>
+                    <p class="flow-text indigo-text text-darken-4">Creative Web Design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div class="container portfilio-color indigo-text text-darken-4" id="services">
+        <h3 class="title center">My Services</h3>
+        <div class="row">
+            <!--services card 1 -->
+            <div class="col s12 m4">
+                <div class="card z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/front-end.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">Front end Development<i
+                                class="material-icons right">more_vert</i></span>
+                        <button data-target="services-modal-1"
+                            class="waves-effect waves-light btn navigation modal-trigger">See more...</button>
+                    </div>
+                    <div class="card-reveal portfilio-color">
+                        <span class="card-title">
+                            Front end Development
+                            <i class="material-icons right">close</i></span>
+                        <p>Creating the visual elements of a website
+                            or
+                            application
+                            that users interact with.
+                            Utilizing
+                            technologies such as HTML, CSS, and JavaScript, to create user-friendly websites and
+                            applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--services card 2 -->
+            <div class="col s12 m4">
+                <div class="card z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/database.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">Back end Development<i
+                                class="material-icons right">more_vert</i></span>
+                        <button data-target="services-modal-2"
+                            class="waves-effect waves-light btn navigation modal-trigger">See
+                            more...</button>
+                    </div>
+                    <div class="card-reveal portfilio-color">
+                        <span class="card-title">
+                            Back end Development
+                            <i class="material-icons right">close</i></span>
+                        <p>
+                            Server-side web development, utilizing node js and database technologies such mySQL
+                            and
+                            monoDB
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--services card 3 -->
+            <div class="col s12 m4">
+                <div class="card  z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/design.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">
+                            Creative Web Designing<i class="material-icons right">more_vert</i></span>
+                        <button data-target="services-modal-3"
+                            class="waves-effect waves-light btn navigation modal-trigger">See more...</button>
+                    </div>
+                    <div class="card-reveal portfilio-color">
+                        <span class="card-title">
+                            Web Designing
+                            <i class="material-icons right">close</i></span>
+                        <p>
+                            Creating user-friendly interfaces that are both visually appealing and functional.
+                            ablility
+                            to troubleshoot any technical issues that may arise during the development process.
+                            ablility
+                            to create beautiful websites that are both user-friendly and effective in achieving the
+                            desired goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services modal -->
+    <div class="modal navigation" id="services-modal-1">
+        <!-- services modal 1 -->
+        <div class="modal-content">
+            <h4>Front end Development</h4>
+            <p>
+            <blockquote class="indigo-text text-darken-4">
+                <p class="flow-text">Website design and development</p>
+                <p class="flow-text">User experience optimization</p>
+                <p class="flow-text">Ensuring the responiveness to various devices and Compatibility across all browsers
+                </p>
+                <p class="flow-text">Collaborating and communicating with designers and back-end developers</p>
+                <p class="flow-text">Using the latest technologies, tools, and techniques to deliver modern experiences.
+                </p>
+            </blockquote>
+            </p>
+        </div>
+        <div class="modal-footer  navigation">
+            <a href="" class="modal-close waves-effect btn close-modal">close</a>
+        </div>
+    </div>
+    <!-- services modal 2 -->
+    <div class="modal navigation" id="services-modal-2">
+        <div class="modal-content">
+            <h4>Back end Development</h4>
+            <p>
+            <blockquote class="indigo-text text-darken-4">
+                <p class="flow-text">Developing and maintaining server-side applications</p>
+                <p class="flow-text">Working with different types of databases such as mySQL and mongodb</p>
+                <p class="flow-text">Integrating front end and back end components</p>
+                <p class="flow-text">Performance optimization</p>
+                <p class="flow-text">Troubleshooting</p>
+            </blockquote>
+            </p>
+        </div>
+        <div class="modal-footer  navigation">
+            <a href="" class="modal-close waves-effect btn close-modal">close</a>
+        </div>
+    </div>
+    <!-- services modal 3 -->
+    <div class="modal navigation" id="services-modal-3">
+        <div class="modal-content">
+            <h4>Back end Development</h4>
+            <p>
+            <blockquote class="indigo-text text-darken-4">
+                <p class="flow-text">Creating visually appealing and user-friendly website designs</p>
+                <p class="flow-text">Coding and implementing the website design</p>
+                <p class="flow-text">Collaborating with clients and stakeholders</p>
+                <p class="flow-text">Conducting user research and testing</p>
+                <p class="flow-text">Keeping up-to-date with industry trends and best practices</p>
+            </blockquote>
+            </p>
+        </div>
+        <div class="modal-footer  navigation">
+            <a href="" class="modal-close waves-effect btn close-modal">close</a>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="container portfilio-color indigo-text text-darken-4" id="projects">
+        <h3 class="title center">Projects</h3>
+        <d class="row">
+            <!-- projects card 1 -->
+            <div class="col s12 m4">
+                <div class="card z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/e-commerce.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">
+                            E-commerce Pair-Project<i class="material-icons right">more_vert</i></span>
+                        <span>
+                            <a href="https://14marlon.github.io/pair-project-api/"
+                                class="waves-effect waves-light btn navigation">open</a>
+                        </span>
+                    </div>
+                    <div class="card-reveal navigation">
+                        <span class="card-title">
+                            E-commerce Pair-Project
+                            <i class="material-icons right">close</i></span>
+                        <p>
+                            This project was done by me and my partner and batchmate miss Iris Raymondo. the Purpose is
+                            to create a website while practicing to fetch data from the dtabase.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- projects card 2 -->
+            <div class="col s12 m4">
+                <div class="card z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/memory-game.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">
+                            Classic Memory Game<i class="material-icons right">more_vert</i>
+                        </span>
+                        <span>
+                            <a href=" https://14marlon.github.io/memory-game/"
+                                class="waves-effect waves-light btn navigation">try it</a>
+                        </span>
+                    </div>
+                    <div class="card-reveal navigation">
+                        <span class="card-title">
+                            Memory Game
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Try and enjoy this exciting game now.</p>
+                        <p>Solo project outside the bootcamp, using html css JavaScript</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- projects card 3 -->
+            <div class="col s12 m4">
+                <div class="card  z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/chat-gpt.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">
+                            ChatGPT AI OPEAI API<i class="material-icons right">more_vert</i>
+                        </span>
+                        <span>
+                            <a href="https://codex-puce-iota.vercel.app/"
+                                class="waves-effect waves-light btn navigation">try it</a>
+                        </span>
+                    </div>
+                    <div class="card-reveal navigation">
+                        <span class="card-title">
+                            ChatGPT AI
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>
+                            Sorry for the inconvinience. My free tier on openAI has expired. this will temporary can,t
+                            answer your questions.
+                        </p>
+                        <p>
+                            Solo project outside the bootcamp, while exploring on how to fetch Api and how to connect to
+                            database. technologies used. Reactjs, mongoDB, and AI API.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- slider-->
+            <div class="row">
+                <div class="col s12">
+                    <div class="slider">
+                        <ul class="slides">
+                            <!-- slider 1 -->
+                            <li>
+                                <img src="images/brollo.jpg" alt="">
+                                <div class="caption right-align indigo-text text-darken-4">
+                                    <h2>Capstone Project Brollo (a Trello clone)</h2>
+                                </div>
+                            </li>
+                            <!-- slider 2 -->
+                            <li>
+                                <img src="images/image-generator.jpg" alt="">
+                                <div class="caption right-align indigo-text text-darken-4">
+                                    <h2>AI Image Generator</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/tic-tac-toe.jpg" alt="">
+                                <div class="caption right-align indigo-text text-darken-4">
+                                    <h2>Tic-tac-Toe</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/e-commerce.jpg" alt="">
+                                <div class="caption right-align indigo-text text-darken-4">
+                                    <h2>E-commerce Pair-Project</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/memory-game.jpg" alt="">
+                                <div class="caption right-align indigo-text text-darken-4">
+                                    <h2>Classic Memory Game</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/chat-gpt.jpg" alt="">
+                                <div class="caption right-align indigo-text text-darken-4">
+                                    <h2>ChatGPT AI</h2>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="center">
+                <!-- Modal Trigger -->
+                <button data-target="modal1" class="waves-effect waves-light btn navigation modal-trigger">See
+                    more...</button>
+            </div>
+            <br>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <!-- modal card 1 -->
+        <div class="modal-content indigo-text text-darken-4">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card  z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/brollo.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">
+                                Brollo (a Trello clone)<i class="material-icons right">more_vert</i>
+                            </span>
+                            <span>
+                                <a href="https://codex-puce-iota.vercel.app/"
+                                    class="waves-effect waves-light btn navigation">try it</a>
+                            </span>
+                        </div>
+                        <div class="card-reveal navigation">
+                            <span class="card-title">
+                                Brollo
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>Note: This project is not live yet. But the source code is already deployed on
+                                github.</p>
+                            <p>
+                                Pair project with 2 batchmates, using Reactjs, bootsrap, Laravel as backend and
+                                other technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal card 2 -->
+                <div class="col s12 m4">
+                    <div class="card  z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/image-generator.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">
+                                AI image-generator<i class="material-icons right">more_vert</i>
+                            </span>
+                            <span>
+                                <a href="https://github.com/14marlon/dall-e-ai.git"
+                                    class="waves-effect waves-light btn navigation">try it</a>
+                            </span>
+                        </div>
+                        <div class="card-reveal navigation">
+                            <span class="card-title">
+                                AI image-generator
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>Note: this project is not live yet. Due to open AI subscription issue, But the source
+                                code is already deployed on
+                                github.</p>
+                            <p>
+                                Solo project outside the bootcamp. Using html, css and vite. While exploring how to
+                                fetch api, connecting to database and managing security.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <!-- modal card 3 -->
+                    <div class="card  z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/tic-tac-toe.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">
+                                Project Tic-Tac-Toe game<i class="material-icons right">more_vert</i>
+                            </span>
+                            <span>
+                                <a href="https://kelsgaming23.github.io/tictactoe/index.html"
+                                    class="waves-effect waves-light btn navigation">try it</a>
+                            </span>
+                        </div>
+                        <div class="card-reveal navigation">
+                            <span class="card-title">
+                                Tic-tac-Toe
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>
+                                Pair project inside the Kodego bootcam using html, css, JavaScript and bootstrap.
+                            </p>
+                            <p>
+                                in collaboration with my classmate Michael Alcoriza.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Modal Collections -->
+            <div class="row">
+                <div class="col s12">
+                    <ul class="collection">
+                        <li class="collection-item avatar navigation indigo-text text-darken-4">
+                            <img src="images/shopping-cart.jpg" alt="" class="circle">
+                            <span class="title">Coffee shoping cart</span>
+                            <p>My first ever ecommerce activity project from the Kodego Bootcamp.</p>
+                            <p>Solo project Inside the bootcamp using html, css and bootstrap.</p>
+                            <a href="https://14marlon.github.io/shoping-cart/" class="secondary-content">
+                                <i class="material-icons">open_in_new</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-light btn close-modal">Close</a>
+        </div>
+    </div>
+    <!-- Resume -->
+    <div class="container portfilio-color indigo-text text-darken-4" id="resume">
+        <h3 class="title center">My Resume</h3>
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card-panel  z-depth-5">
+                    <img class="responsive-img" src="images/marlon-aragon-cv.png" alt="">
+                </div>
+            </div>
+            <div class="center">
+                <a href="images/marlon-aragon-cv-2023.pdf" download
+                    class="waves-effect waves-light btn navigation">Download CV</a>
+            </div><br>
+        </div>
+    </div>
+
+    <!-- Contacts -->
+    <div class="container portfilio-color" id="contact">
+        <h3 class="title indigo-text text-darken-4 center">Contact me</h3>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="indigo-text text-darken-4">
+                    <h5>aragonmarlon1@gmail.com</h5>
+                    <h5>09082883684</h5>
+                </div>
+                <h5 class="center indigo-text text-darken-4">Social Media</h5>
+                <div class="social-links">
+                    <a href="https://facebook.com/allesso.allesso.75">
+                        <i class="fa-brands fa-facebook light-blue-text text-darken-4"></i>
+                    </a>
+                    <a href="https://www.instagram.com//aragonlhon">
+                        <i class="fa-brands fa-instagram deep-orange-text"></i>
+                    </a>
+                    <a href="https://twitter.com/aragonmarlon1">
+                        <i class="fa-brands fa-square-x-twitter grey-text text-darken-4"></i>
+                    </a>
+                    <a href="https://github.com/14marlon">
+                        <i class="fa-brands fa-github grey-text text-darken-2"></i>
+                    </a>
+                </div>
+                <br>
+                <div class="center">
+                    <a href="images/marlon-aragon-cv-2023.pdf" download
+                        class="waves-effect waves-light btn navigation">Download CV</a>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <form name="submit-to-google-sheet">
+                    <div class="input-field">
+                        <input id="first_name" type="text" name="first-name" class="validate">
+                        <label for="first_name" class="indigo-text text-darken-4">First Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="last_name" type="text" name="last-name" class="validate">
+                        <label for="last_name" class="indigo-text text-darken-4">Last Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="email" type="email" name="email" class="validate">
+                        <label for="email" class="indigo-text text-darken-4">Your email</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
+                        <label for="textarea1" class="indigo-text text-darken-4">Your Message</label>
+                    </div>
+                    <div class="center">
+                        <button class="btn waves-effect waves-light navigation" type="submit" name="action">
+                            Send
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form><br>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer blue lighten-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="indigo-text text-darken-4 center">Marlon Aragon</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <h6 class="indigo-text text-darken-4 center">Know more about me</h6>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com/allesso.allesso.75">
+                                <i class="fa-brands fa-facebook light-blue-text text-accent-4"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com//aragonlhon">
+                                <i class="fa-brands fa-instagram deep-orange-text"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/aragonmarlon1">
+                                <i class="fa-brands fa-square-x-twitter grey-text text-darken-4"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/14marlon">
+                                <i class="fa-brands fa-github grey-text text-darken-2"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 indigo-text text-darken-4">
+                    <p>2023 web Development Journey</p>
+                    <p>Kodego Full stack development bootcamp</p>
+                    <p>Telacall Institute of Technology</p>
+                </div>
+                <div class="col s12 m4 indigo-text text-darken-4">
+                    <h6>Send me a message</h6>
+                    <div>
+                        <p><i class="fa-solid fa-envelope footer-contacts"></i> aragonmarlon1@gmail.com</p>
+                    </div>
+                    <div>
+                        <p><i class="fa-solid fa-phone footer-contacts"></i> 09082883684</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container indigo-text text-darken-4 center">
+                Copyright © Lhon. 2023 web Development Journey
+            </div>
+        </div>
+    </footer>
+
+    <div class="container">
+        <div class="fixed-action-btn">
+            <a href="#about">
+                <i class="fa-solid fa-circle-up red-text text-accent-4"></i><br>
+                <span class="red-text text-accent-4">back to top</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // sidenav
+            $('.sidenav').sidenav({
+                inDuration: 800,
+                outDuration: 800
+            });
+            // tabs
+            $('.tabs').tabs({
+                duration: 500
+            });
+            // scrollspy
+            $('.scrollspy').scrollspy();
+        });
+
+        $(document).ready(function () {
+            $('.modal').modal({
+                inDuration: 500,
+                outDuration: 500
+            });
+        });
+        // slider
+        $(document).ready(function () {
+            $('.slider').slider({
+                interval: 5000
+            });
+        });
+    </script>
+    <!-- submit to google sheet -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwTrV-W2e8H9b6a6UVzTMss_1g8dB7B7ID6yqHTjUzRqLLkYVBJ45ZO-RmTbe5SSYDQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>

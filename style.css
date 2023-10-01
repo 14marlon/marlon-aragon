@@ -1,0 +1,83 @@
+.main-section {
+    background-image: url(images/my-image-1.png);
+    background-repeat: no-repeat;
+}
+
+.navigation {
+    background: linear-gradient(45deg, #afe4f4, #829de4, #d2e4e6);
+}
+
+.logo {
+    padding-left: 20px !important;
+}
+
+.home-color {
+    background: linear-gradient(45deg, #9ad5e9, #e5ebeb, #94aedf);
+}
+
+.portfilio-color {
+    background: linear-gradient(45deg, #9ad5e9, #e5ebeb, #94aedf);
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-brands {
+    font-size: 25px;
+    /* color: #311b92; */
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.tech-span {
+    font-size: 10px;
+}
+
+.material {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-contacts {
+    font-size: 15px;
+}
+
+.home-text {
+    font-weight: bold;
+}
+
+.name-text {
+    font-weight: bolder;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.tab-text {
+    font-weight: bold;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-modal {
+    background: linear-gradient(45deg, #e57373, #ffff00);
+}
+
+.btn {
+    border-radius: 25px !important;
+}
